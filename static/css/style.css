@@ -10,7 +10,7 @@ a{color:inherit}
 .skip{position:absolute;left:-99rem}.skip:focus{left:1rem;top:1rem;background:#fff;color:#000;padding:.5rem;z-index:99}
 .hlavicka{position:sticky;top:0;z-index:20;background:rgba(13,13,13,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--cara)}
 .hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4.25rem}
-.logo img{height:42px;width:auto;max-width:244px}
+.logo img{height:auto;width:auto;max-width:244px}
 .hlavicka nav{display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:flex-end}
 .hlavicka nav a{display:inline-block;padding:.7rem .2rem;text-decoration:none;font-weight:500;font-size:.95rem;color:var(--tlmeny)}
 .hlavicka nav a:hover{color:var(--cervena)}
@@ -34,7 +34,7 @@ small{font-weight:400;color:var(--tlmeny);font-size:.8em;margin-left:.4rem}
 .tl-hlavne:hover{background:var(--tmava-cervena);border-color:var(--tmava-cervena)}
 .tl:not(.tl-hlavne):hover{background:rgba(255,50,57,.12)}
 .tl-mensi{padding:.45rem 1.1rem;font-size:.95rem;white-space:nowrap}
-.oslava{margin:-1rem 0 0}
+.oslava{margin:0 0 2rem}
 .sekce{padding:clamp(4rem,9vw,7.5rem) 0}
 .tmava{background:var(--panel);border-block:1px solid var(--cara)}
 .hry{display:grid;gap:2rem}
@@ -79,3 +79,8 @@ address a{color:var(--cervena);text-decoration:none}address a:hover{text-decorat
 .paticka .wrap{display:flex;gap:1.5rem;flex-wrap:wrap}.paticka p{margin:0}
 @media(max-width:40rem){.hlavicka .wrap{flex-wrap:wrap;padding:.5rem 0}.hlavicka nav{gap:.6rem;order:3;width:100%;justify-content:flex-start}.hlavicka nav a{padding:.85rem .4rem}.hero-bg::after{background:rgba(13,13,13,.8)}.skip:focus{padding:.9rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.oslavy-foto{margin:0 0 2rem}
+.oslavy-foto img{width:100%;aspect-ratio:16/7;object-fit:cover;border-radius:.3rem}
+.baliky div.zvyraz{border-color:var(--cervena);background:#201213}
+.baliky-cta{margin:1.8rem 0 0}
