@@ -1,0 +1,106 @@
+{% extends "_base.html" %}
+{% set titulek = 'Laser aréna Liptovský Mikuláš – laser tag, laser maze, escape room | Liptov Lasers' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitok">Revolučná 650, Liptovský Mikuláš</p>
+      <h1>Laserová aréna pre partiu, rodinu aj firmu</h1>
+      <p class="uvod">Laser tag v labyrinte, preliezka medzi lasermi a escape room v učiteľskom kabinete. Zásah nebolí a nezašpiníte sa.</p>
+      <p class="tlacidla"><a class="tl tl-hlavne" href="https://www.liptovlasers.com/sk/rezervacia-laser-tag">Rezervovať laser tag</a> <a class="tl" href="#cennik">Cenník</a></p>
+    </div>
+    <div class="hero-foto">{{ img('lasermaze.jpg', 'Laser maze – chodba s laserovými lúčmi', sizes='(min-width: 60rem) 34rem, 100vw') }}</div>
+  </div>
+</section>
+
+<section class="sekce" id="hry">
+  <div class="wrap">
+    <h2>Tri hry v jednej aréne</h2>
+    <div class="hry">
+      <article class="hra">
+        {{ img('lasertag.jpg', 'Laser tag – hráči s laserovými zbraňami', sizes='(min-width: 60rem) 22rem, 100vw') }}
+        <h3>Laser tag</h3>
+        <p>Laserová prestrelka v labyrinte, kolektívna hra pre všetkých, ktorí majú radi adrenalín. Hrá sa v uzavretej, pekne zariadenej aréne. Na rozdiel od paintballu je úplne bezbolestná a bezpečná.</p>
+        <p class="detail">12 minút · 8 € / osoba</p>
+        <a href="https://www.liptovlasers.com/sk/rezervacia-laser-tag">Rezervácia</a>
+      </article>
+      <article class="hra">
+        {{ img('lasermaze.jpg', 'Laser maze – chodba s laserovými lúčmi', sizes='(min-width: 60rem) 22rem, 100vw') }}
+        <h3>Laser maze</h3>
+        <p>Zahráte sa na vykrádača trezorov ako z filmu Mission Impossible. Máte dve minúty, aby ste preliezli 6 metrov dlhou chodbou plnou laserových lúčov, vybrali trezor a vrátili sa späť.</p>
+        <p class="detail">od 7 € / 5 minút</p>
+      </article>
+      <article class="hra">
+        {{ img('escape.jpg', 'Escape room – kombinačný zámok a prútený košík', sizes='(min-width: 60rem) 22rem, 100vw') }}
+        <h3>Escape room</h3>
+        <p>Zavrieme vás do učiteľského kabinetu. Von sa dostanete, len ak vyriešite hádanky z fyziky, chémie, literatúry, hudobnej výchovy, geografie a ďalších predmetov.</p>
+        <p class="detail">1 hodina, 10 zámkov, obtiažnosť 9/10 · od 30 €</p>
+        <a href="https://www.liptovlasers.com/sk/rezervacia-escape-room">Rezervácia</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sekce tmava" id="cennik">
+  <div class="wrap">
+    <h2>Cenník</h2>
+    <div class="ceny">
+      <div class="tab">
+        <h3>Laser tag <small>12 minút</small></h3>
+        <dl><div><dt>1 osoba, 1 hra</dt><dd>8 €</dd></div></dl>
+        <p class="pozn">Zľava 10 % pre skupinu od 8 ľudí a pre rodiny, pri rezervácii s registráciou. Zľavy sa nedajú kombinovať.</p>
+      </div>
+      <div class="tab">
+        <h3>Laser maze</h3>
+        <dl><div><dt>5 minút</dt><dd>7 €</dd></div><div><dt>10 minút</dt><dd>12 €</dd></div></dl>
+      </div>
+      <div class="tab">
+        <h3>Escape room</h3>
+        <dl><div><dt>1 alebo 2 ľudia</dt><dd>30 €</dd></div><div><dt>Skupina do 5 ľudí</dt><dd>50 €</dd></div><div><dt>Extra čas 15 minút</dt><dd>10 €</dd></div><div><dt>Extra čas 30 minút</dt><dd>20 €</dd></div></dl>
+      </div>
+      <div class="tab">
+        <h3>Play dance</h3>
+        <dl><div><dt>5 minút</dt><dd>7 €</dd></div><div><dt>10 minút</dt><dd>12 €</dd></div></dl>
+        <h3 class="druhy">Stolný futbal</h3>
+        <dl><div><dt>1 žetón (10 loptičiek)</dt><dd>1 €</dd></div></dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="oslavy">
+  <div class="wrap">
+    <h2>Oslavy, teambuilding a firemné akcie</h2>
+    <p class="perex">Narodeniny, rodinná oslava, vianočný večierok alebo teambuilding. Laser tag turnaj pre jednotlivcov aj tímy vieme zorganizovať počas akcie. Do hier môže byť zapojených až 20 ľudí naraz, miesto pri stole nájde vyše 40. Parkovanie pred budovou je zadarmo.</p>
+    <h3 class="medzi">Balíky „Oslávenec“ <small>pre jednu osobu, najmenej 4 hráči</small></h3>
+    <div class="baliky">
+      <div><h4>mini Oslávenec</h4><p>najviac 5 hier laser tag</p><strong>30 €</strong></div>
+      <div><h4>mini Oslávenec PLUS</h4><p>najviac 5 hier laser tag, 10 min laser maze (alebo play dance), kalčeto</p><strong>36 €</strong></div>
+      <div><h4>Oslávenec</h4><p>neobmedzené hry laser tag, pannini, nápoj podľa výberu</p><strong>44 €</strong></div>
+      <div><h4>Oslávenec PLUS</h4><p>neobmedzené všetky dostupné hry okrem escape room, pannini, nápoj podľa výberu</p><strong>49 €</strong></div>
+    </div>
+    <h3 class="medzi">Prenájom arény pre uzavretú spoločnosť <small>ceny bez DPH</small></h3>
+    <dl class="prenajom"><div><dt>1 hodina</dt><dd>330 €</dd></div><div><dt>2 hodiny</dt><dd>580 €</dd></div><div><dt>3 hodiny</dt><dd>770 €</dd></div><div><dt>4 hodiny</dt><dd>990 €</dd></div></dl>
+    <p class="pozn">Darčekové poukazy: Lasergame Maratón 120 €, mini 60 €, mikro 30 €. Je tu aj stolná hra Paragliding Hike &amp; Fly.</p>
+  </div>
+</section>
+
+<section class="sekce tmava" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <h2>Kde nás nájdete</h2>
+      <address>
+        <p><strong>Revolučná 650</strong><br>031 05 Liptovský Mikuláš</p>
+        <p>Vlastné parkovisko priamo pred arénou.<br>MHD: zastávka Ondrašová most.</p>
+        <p><a href="tel:+421948108755">+421 948 108 755</a><br><a href="mailto:info@liptovlasers.com">info@liptovlasers.com</a><br><a href="https://www.facebook.com/liptovlasers/">Facebook</a></p>
+      </address>
+      <p class="pozn">Aktuálne otváracie dni a hodiny sú v kalendári rezervácií.</p>
+    </div>
+    <div>
+      <h3>Napíšte nám</h3>
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+{% endblock %}

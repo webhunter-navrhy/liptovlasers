@@ -1,0 +1,30 @@
+{
+  "slug": "liptovlasers",
+  "nazev": "Liptov Lasers",
+  "url": "https://webhunter-navrhy.github.io/liptovlasers/",
+  "base": "/liptovlasers/",
+  "lang": "sk",
+  "popis": "Laser aréna v Liptovskom Mikuláši: laser tag, laser maze a escape room. Oslavy, teambuildingy a firemné akcie, vlastné parkovisko.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "lasertag.jpg",
+  "logo": "logo.png",
+  "theme_color": "#0d0d0d",
+  "typ": "LocalBusiness",
+  "ico": "47490349",
+  "kontakt": {
+    "email": "info@liptovlasers.com",
+    "telefon": "+421 948 108 755",
+    "adresa": {"ulice": "Revolučná 650", "psc": "031 05", "mesto": "Liptovský Mikuláš", "zeme": "SK"}
+  },
+  "oteviraci_doba": [],
+  "sameas": ["https://www.facebook.com/liptovlasers/"],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Dopyt z webu"},
+  "nav": [
+    {"text": "Hry", "href": "#hry"},
+    {"text": "Cenník", "href": "#cennik"},
+    {"text": "Oslavy a firmy", "href": "#oslavy"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}
