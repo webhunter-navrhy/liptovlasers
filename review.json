@@ -1,0 +1,16 @@
+{
+  "znamka": 6,
+  "slabiny": [
+    "Hero na PC (snímek 1): fotka laser maze je jen malý rámeček vpravo a pod tlačítky zůstává prázdná tmavá plocha, takže laserová aréna nepůsobí atmosféricky. Oprava: dát fotku laserů přes celou šířku jako pozadí hero (s tmavým přechodem vlevo kvůli čitelnosti), H1 a CTA „Rezervovať laser tag“ položit přes ni a výšku hero zkrátit, aby karty her začínaly nad zlomem.",
+    "Hlavička na mobilu (390/360 px): logo je roztažené 1,40× (244 → 342 px) a tím neostré. Odkazy menu mají výšku jen 25 px a v hlavičce chybí tlačítko rezervace. Oprava: dodat logo ve 2× rozlišení nebo ho omezit na max. 244 px, odkazy zvětšit na ≥ 44 px (nebo udělat hamburger) a do hlavičky přidat červené tlačítko „Rezervácia“, ať je vidět na každé obrazovce.",
+    "Sekce Cenník a Oslavy a firmy (PC snímky 2–4, mobil 4–7): dvě husté cenové sekce jdou za sebou bez jediné fotky a se stejnými tabulkami, takže druhá polovina stránky je jednotvárný tmavý ceník. Oprava: do Oslav dát velkou fotku skupiny nebo arény vedle úvodního textu a balíky „Oslávenec“ odlišit (zvýraznit doporučený balík, přidat tlačítko „Rezervovať oslavu“). V Kontaktu udělat z věty „otváracie hodiny sú v kalendári rezervácií“ odkaz nebo tlačítko na ten kalendář. Navíc karta Laser maze nemá odkaz Rezervácia, sjednotit ho s ostatními kartami."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Je tam logo Liptov Lasers a zachovaná je klientova červená. Tmavý podklad má u laserové arény oporu v oboru, nejde o samoúčelný luxus.",
+    "Obsah je konkrétní a z podkladů: tři hry s reálnými popisy, kompletní ceník, balíky Oslávenec, pronájem arény, adresa, MHD i parkování.",
+    "Na žádné šířce nic nepřetéká, stránka je lehká (0,3–0,5 MB), Archivo kreslí slovenskou diakritiku správně a nejsou tu AI vzory (marquee, číslování, kurzíva v nadpisech)."
+  ],
+  "verdikt": "Je to korektní a pravdivý web s brandem klienta, ale chybí mu atmosféra laserové arény: malý hero rámeček, druhá polovina je jen ceník bez fotek a na mobilu je neostré logo a malé menu. Opravit podle slabin a pak znovu posoudit.",
+  "_hash": "e80c4e4a771b3615d7ae382f24f11b2a9c597ca6"
+}

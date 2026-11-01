@@ -28,6 +28,7 @@
     <nav aria-label="Hlavné menu">
       {% for n in site.nav %}<a href="{{ n.href if n.href.startswith(('#', 'http', 'tel:', 'mailto:')) else url(n.href) }}">{{ n.text }}</a> {% endfor %}
     </nav>
+    <a class="tl tl-hlavne tl-mensi" href="https://www.liptovlasers.com/sk/rezervacia-laser-tag">Rezervácia</a>
   </div>
 </header>
 <main id="obsah">

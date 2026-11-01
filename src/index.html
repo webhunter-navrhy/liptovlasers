@@ -1,16 +1,14 @@
 {% extends "_base.html" %}
-{% set titulek = 'Laser aréna Liptovský Mikuláš – laser tag, laser maze, escape room | Liptov Lasers' %}
+{% set titulek = 'Laser aréna Liptovský Mikuláš | Liptov Lasers' %}
 {% set cesta = '' %}
 {% block obsah %}
 <section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-text">
-      <p class="stitok">Revolučná 650, Liptovský Mikuláš</p>
-      <h1>Laserová aréna pre partiu, rodinu aj firmu</h1>
-      <p class="uvod">Laser tag v labyrinte, preliezka medzi lasermi a escape room v učiteľskom kabinete. Zásah nebolí a nezašpiníte sa.</p>
-      <p class="tlacidla"><a class="tl tl-hlavne" href="https://www.liptovlasers.com/sk/rezervacia-laser-tag">Rezervovať laser tag</a> <a class="tl" href="#cennik">Cenník</a></p>
-    </div>
-    <div class="hero-foto">{{ img('lasermaze.jpg', 'Laser maze – chodba s laserovými lúčmi', sizes='(min-width: 60rem) 34rem, 100vw') }}</div>
+  <div class="hero-bg">{{ img('lasermaze.jpg', 'Laser maze – chodba s laserovými lúčmi', sizes='100vw') }}</div>
+  <div class="wrap hero-text">
+    <p class="stitok">Revolučná 650, Liptovský Mikuláš</p>
+    <h1>Laserová aréna pre partiu, rodinu aj firmu</h1>
+    <p class="uvod">Laser tag v labyrinte, preliezka medzi lasermi a escape room v učiteľskom kabinete. Zásah nebolí a nezašpiníte sa.</p>
+    <p class="tlacidla"><a class="tl tl-hlavne" href="https://www.liptovlasers.com/sk/rezervacia-laser-tag">Rezervovať laser tag</a> <a class="tl" href="#cennik">Cenník</a></p>
   </div>
 </section>
 
@@ -30,6 +28,7 @@
         <h3>Laser maze</h3>
         <p>Zahráte sa na vykrádača trezorov ako z filmu Mission Impossible. Máte dve minúty, aby ste preliezli 6 metrov dlhou chodbou plnou laserových lúčov, vybrali trezor a vrátili sa späť.</p>
         <p class="detail">od 7 € / 5 minút</p>
+        <a href="https://www.liptovlasers.com/sk/rezervacia-laser-tag">Rezervácia</a>
       </article>
       <article class="hra">
         {{ img('escape.jpg', 'Escape room – kombinačný zámok a prútený košík', sizes='(min-width: 60rem) 22rem, 100vw') }}
@@ -73,6 +72,7 @@
   <div class="wrap">
     <h2>Oslavy, teambuilding a firemné akcie</h2>
     <p class="perex">Narodeniny, rodinná oslava, vianočný večierok alebo teambuilding. Laser tag turnaj pre jednotlivcov aj tímy vieme zorganizovať počas akcie. Do hier môže byť zapojených až 20 ľudí naraz, miesto pri stole nájde vyše 40. Parkovanie pred budovou je zadarmo.</p>
+    <p class="tlacidla oslava"><a class="tl tl-hlavne" href="#kontakt">Spýtať sa na oslavu</a></p>
     <h3 class="medzi">Balíky „Oslávenec“ <small>pre jednu osobu, najmenej 4 hráči</small></h3>
     <div class="baliky">
       <div><h4>mini Oslávenec</h4><p>najviac 5 hier laser tag</p><strong>30 €</strong></div>
@@ -95,7 +95,7 @@
         <p>Vlastné parkovisko priamo pred arénou.<br>MHD: zastávka Ondrašová most.</p>
         <p><a href="tel:+421948108755">+421 948 108 755</a><br><a href="mailto:info@liptovlasers.com">info@liptovlasers.com</a><br><a href="https://www.facebook.com/liptovlasers/">Facebook</a></p>
       </address>
-      <p class="pozn">Aktuálne otváracie dni a hodiny sú v kalendári rezervácií.</p>
+      <p class="pozn">Aktuálne otváracie dni a hodiny nájdete v <a href="https://www.liptovlasers.com/sk/rezervacia-laser-tag">kalendári rezervácií</a>.</p>
     </div>
     <div>
       <h3>Napíšte nám</h3>
